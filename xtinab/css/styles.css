@@ -1,0 +1,354 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo a {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+/*This is where the css starts for the Top Nav & Footer on each page.*/
+
+
+.megamenu {
+    position:absolute;
+    z-index:-1;
+    opacity:1;
+    height:0px;
+    overflow:hidden;
+    transition:opacity linear 0.15s;
+    background-color: #ffffff;
+}
+
+.megamenu li {
+    margin: 5px !important;
+    float: left;
+    clear: both;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.nav li:hover .megamenu {
+    z-index: 1;
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #BFBFBF;
+}
+
+.pph {
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    background-color: #BFBFBF;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+}
+
+.pph p {
+    font-size: 12px;
+    letter-spacing: .05em;
+}
+
+.nav {
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    top: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 25px;
+    font-size: 14px;
+    letter-spacing: .05em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: .25s all;
+}
+
+.nav li a:hover, .nav li a:active {
+    border-radius: 5px;
+    color:#BFBFBF;
+}
+
+.logo a:hover {
+    color: black !important;
+}
+
+.footer {
+    background-color: #BFBFBF;
+    width: 960px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    margin: auto;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 11px;
+    padding-left: 30px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: .05em;
+}
+
+
+
+
+/*This is where the css ends for the Top Nav & Footer on each page.*/
+
+
+/*This is where the css starts for the Home page by Christina!*/
+
+.header-home {
+    background-image: url(../images/models.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    width: 960px;
+    margin-top: 85px;
+    text-align: center;
+    color:#F2F2F2;
+    margin: auto;
+}
+
+.header-home h1 {
+    padding-top: 75px;
+    color: #F2F2F2;
+}
+
+.header-picture h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.header-picture h2 {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.header-picture {
+    background-image:url(../images/hangingclothes.jpg);
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 960px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.header-picture button {
+    background-color: #BFBFBF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s; 
+    position: center;
+
+} 
+
+.header-picture button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header-picture a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* This is where the css ends for the Home page by Christina!*/ 
+
+/*This is where the css starts for the Shop page by Christina!*/
+
+.header-shop {
+     background-image: url(../images/models.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    text-align: center;
+    width: 960px;
+    height: 200px;
+    margin-top: 85px;
+    margin: auto;
+}
+
+.header-shop h1 {
+   padding-top: 75px;
+    color: #F2F2F2;
+}
+
+.body-shop h1 {
+    text-align: center;
+    
+}
+
+.shop-images {
+    width: 660px;
+    margin: auto;
+    position: right;
+}
+
+
+.shop-images section div {
+    display: inline-block;
+}
+
+.shop-images section div p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: -2px;
+}
+
+.shop-images section img {
+    width: 200px;
+    height: 250px;
+    margin: 5px 5px 0px 5px;
+} 
+
+/*This is where the css ends for the Shop page by Christina!*/
+
+/*This is where the css starts for the Featured page by Kristian!*/
+
+.header-featured {
+    background-image: url(../images/model.jpg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.header-featured h1 {
+    padding-top: 50px;
+    color: #F2F2F2;
+    padding-left: 600px;
+}
+
+.page-title {
+    width: 960px;
+    margin: auto;
+}
+
+.page-title h1 {
+    text-align: left;
+    padding: 5px;
+}
+
+.featured-container {
+    width: 660px;
+    margin: auto;
+    position: right;
+}
+
+.featured-container section div {
+    display: inline-block;
+}
+
+.featured-container section div p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: -2px;
+}
+
+.featured-container section img {
+    width: 200px;
+    height: 250px;
+    margin: 5px 5px 0px 5px;
+}
+
+.bottom-image {
+    margin-bottom: 20px;
+}
+
+
+/*This is where the css ends for the Featured page by Kristian!*/
+
+/*This is where the css starts for the Contact page by Kristian!*/
+
+.contact-featured {
+    background-image: url(../images/model-blonde.jpg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.contact-featured h1 {
+    padding-top: 50px;
+    padding-left: 400px;
+    color: #F2F2F2;
+}
+
+.contact-container {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container h1 {
+    text-align: left;
+    padding: 5px;
+}
+
+.form {
+    margin: auto;
+    width:960px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.radios {
+    margin: 20px;
+}
+
+
+/*This is where the css ends for the Contact page by Kristian!*/
+
+/* This is our color scheme:
+
+    1) BLACK: HEX #0D0D0D
+    2) WHITE: HEX #F2F2F2
+    3) DARK GREY: HEX #404040
+    4) MEDIUM GREY: HEX #737373
+    5) LIGHT GREY: HEX #BFBFBF
+    
+*/
+
+
+
+
